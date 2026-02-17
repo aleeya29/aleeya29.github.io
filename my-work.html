@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Aleeya Mohamad Roki's Personal Website</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="container py-4">
+        <h1 class="mb-1">My Work</h1>
+      </div>
+
+      <nav class="site-nav">
+        <div class="container">
+          <a class="nav-link-item m-2" href="index.html">About Me</a>
+          <a class="nav-link-item m-2" href="my-work.html">My Work</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container my-4">
+      <section class="card-like p-4">
+        <h2 class="section-title">Featured Projects</h2>
+
+        <!--project 1-->
+        <div class="row g-4 mt-1">
+          <div class="col-md-6">
+            <article class="project card-like p-3 h-100">
+              <h2 class="project-title">Zaya Chatbot MVP</h2>
+              <img
+                class="project-img"
+                src="images/zaya-chatbot.png"
+                alt="Screenshot of Zaya chatbot project"
+              />
+              <p>
+                Embedded React chatbot MVP built for LeyLine Technologies Inc. to guide users based on intent 
+                (Creator, Developer, Bug Reporter), with a FastAPI backend and structured logging to Feishu Bitable. 
+              </p>
+              <p class="muted">
+                Tech: <strong>React</strong>, <strong>FastAPI</strong>, logging + integrations
+              </p>
+              <a href="https://github.com/aleeya2903/zaya-chatbot" target="_blank" rel="noreferrer">Repository</a>
+            </article>
+          </div>
+
+          <!--project 2-->
+          <div class="col-md-6">
+            <article class="project card-like p-3 h-100">
+              <h2 class="project-title">NYC Cab Analysis</h2>
+              <img
+                class="project-img"
+                src="images/nyc-cab.png"
+                alt="Screenshot of one of the graphs created for the NYC Cab Analysis"
+              />
+              <p>
+                An analysis of 30GB NYC taxi data using R and HTCondor, revealing borough-specific travel insights and COVID impacts.
+              </p>
+              <p class="muted">
+                Tech: <strong>R</strong>, <strong>HTCondor</strong>, ggplot2
+              </p>
+              <a href="https://github.com/aleeya2903/nyc-cab-analysis" target="_blank" rel="noreferrer">Repository</a>
+            </article>
+          </div>
+
+          <!--project 3-->
+          <div class="col-md-6">
+            <article class="project card-like p-3 h-100">
+              <h2 class="project-title">Reddit Rant Roulette</h2>
+              <img
+                class="project-img"
+                src="images/reddit-rant.png"
+                alt="An image representing a web app called Reddit Rant Roulette that turns rants into poems"
+              />
+              <p>
+                A full-stack AI app that turns Reddit rants into poems using a custom scraper, Gemini API, Flask, and React.
+              </p>
+              <p class="muted">
+                Tech: <strong>Flask</strong>, <strong>React</strong>, API integration, Python
+              </p>
+              <a href="https://github.com/aleeya2903/bolt_project" target="_blank" rel="noreferrer">Repository</a>
+              <a href="https://rageroulette.netlify.app/" target="_blank" rel="noreferrer">Live Site</a>
+            </article>
+          </div>
+
+          <div class="col-md-6">
+            <article class="project card-like p-3 h-100">
+              <h2 class="project-title">ATP and WTA Statistical Analysis and Modeling</h2>
+              <img
+                class="project-img"
+                src="images/atp-wta.png"
+                alt="An image representing one of the graphs for the ATP and WTA analysis"
+              />
+              <p>
+                An analysis of 2023 professional tennis match data to identify how age, height, and court surface influence win rates. 
+                Used R and ggplot2 to uncover gender-specific performance trends and built statistical models to support findings
+              </p>
+              <p class="muted">
+                Tech: <strong>R</strong>, data cleaning, visualization
+              </p>
+              <a href="https://github.com/aleeya2903/atp-wta-analysis" target="_blank" rel="noreferrer">Repository</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="card-like p-4 mt-4">
+        <h2 class="section-title">Other Work</h2>
+        <p>Some more projects I've done in the past that I wanted to highlight:</p>
+
+        <ul>
+          <li><strong>Wiscard Mobile App</strong> prototype redesign using Figma (UX Project)</li>
+          <li><strong>Historical wildfire ignition</strong> data validation and QA (3 million row dataset) using Python on Jupyter Lab for Interlinked</li>
+          <li><strong>Wisconsin Dining Relational Database System</strong> design using MySQL for a reliable data storage and querying</li>
+        </ul>
+      </section>
+
+      <section class="card-like p-4 mt-4">
+        <h2 class="section-title">My Skills Summary</h2>
+
+        <div class="table-responsive">
+          <table class="table custom-table">
+            <thead>
+              <tr>
+                <th>Area</th>
+                <th>Tools</th>
+                <th>What I do</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Web</td>
+                <td>HTML, CSS, Bootstrap</td>
+                <td>Build clean, responsive pages</td>
+              </tr>
+              <tr>
+                <td>Programming</td>
+                <td>Python, JavaScript</td>
+                <td>Automate, build APIs, prototype apps</td>
+              </tr>
+              <tr>
+                <td>Data</td>
+                <td>R, SQL (basics)</td>
+                <td>Analyze datasets + communicate results</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p>
+          Let's connect! I can be reached at:
+          <a href="mailto:mohamadroki@wisc.edu">mohamadroki@wisc.edu</a>
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container py-4">
+        <p class="mb-0">© 2026 • Aleeya Mohamad Roki</p>
+      </div>
+    </footer>
+  </body>
+</html>
