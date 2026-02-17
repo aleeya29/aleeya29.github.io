@@ -1,0 +1,81 @@
+/* Your CSS goes here! */
+/* 1) Page-wide styling */
+body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background: #f6f7fb;
+  color: #1f2937;
+  margin: 0;
+}
+
+/* 2) Header / nav styling */
+.site-header {
+  background: #0f172a;
+  color: white;
+}
+
+.site-nav {
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 10px 0;
+}
+
+.nav-link-item {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.nav-link-item:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* 3) Reusable “card” look */
+.card-like {
+  background: white;
+  border-radius: 16px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+}
+
+/* 4) Titles and muted text */
+.section-title {
+  font-size: 1.4rem;
+  margin-bottom: 12px;
+}
+
+.muted {
+  color: #6b7280;
+}
+
+/* 5) Project styling */
+.project-title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.project-img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  margin-bottom: 12px;
+}
+
+/* 6) Table styling */
+.custom-table {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.custom-table thead th {
+  background: #f1f5f9;
+  font-weight: 700;
+}
+
+/* 7) Footer styling */
+.site-footer {
+  margin-top: 30px;
+  background: #0f172a;
+  color: #cbd5e1;
+}
